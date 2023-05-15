@@ -49,6 +49,7 @@ a {
 .header {
     height: 30px;
     margin-top: 90px;
+    margin-bottom: 40px;
 }
 
 .header-wrapper {
@@ -204,7 +205,7 @@ a {
 }
 
 .where-buy {
-    margin: 60px 0px;
+    margin: 20px 0px 60px;
     background-image: url("../svg/map.svg");
     background-position: center;
     background-size: contain;
@@ -267,4 +268,187 @@ a {
     text-align: center;
     text-decoration-line: underline;
     color: #9A0F36;
+}
+
+.catalog-wrapper {
+    display: flex;
+    padding-top: 50px;
+}
+
+.catalog-filter {
+    width: 250px;
+    border-right: #FBFAF6 2px solid;
+    flex-shrink: 0;
+}
+
+.catalog-filter__title {
+    padding: 5px 0px 15px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 139.02%;
+    color: #FBFAF6;
+    border-bottom: #FBFAF6 2px solid;
+    text-transform: uppercase;
+}
+
+.catalog-filter__block {
+    padding: 30px 10px 0px 0px;
+}
+
+.catalog-filter__block h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 139.02%;
+    /* or 22px */
+    color: #FBFAF6;
+}
+
+.catalog-filter__checkbox {
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.catalog-filter__checkbox label {
+    font-size: 14px;
+    line-height: 139.02%;
+    /* or 19px */
+    color: #FBFAF6;
+    cursor: pointer;
+}
+
+.catalog-filter__checkbox input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    background: #FBFAF6;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-right: 8px;
+    position: relative;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.catalog-filter__checkbox input[type="checkbox"]:checked:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 10px;
+    background-image: url("../svg/check.svg");
+}
+
+.catalog-filter__buttons {
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalog-filter__buttons button[type="submit"] {
+    background: #9C0F32;
+    border: 2px solid #9C0F32;
+    box-shadow: 6.57802px 5.6383px 10.3369px rgba(0, 0, 0, 0.25);
+    border-radius: 93px;
+    padding: 13px 22px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 13.156px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: center;
+    color: #FBFAF6;
+    width: 192px;
+}
+
+.catalog-filter__buttons button[type="reset"] {
+    padding: 13px 22px;
+    border: 2px solid #FBFAF6;
+    filter: drop-shadow(5.95154px 5.10132px 9.35242px rgba(0, 0, 0, 0.25));
+    border-radius: 85.022px;
+    font-weight: 600;
+    font-size: 11.9031px;
+    line-height: 14px;
+    text-align: center;
+    font-family: var(--main-font);
+    color: #FBFAF6;
+    background-color: transparent;
+    cursor: pointer;
+    width: 192px;
+}
+
+.catalog-list {
+    flex-grow: 1;
+
+}
+
+.catalog-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 80px;
+    gap: 80px;
+    margin-bottom: 80px;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    width: 185px;
+}
+
+.product-item__img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.product-item__img img {
+    display: block;
+    width: 100%;
+}
+
+.product-item__name {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FBFAF6;
+    margin-bottom: 5px;
+}
+
+.product-item__description {
+    color: #FBFAF6;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: -2%;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #FBFAF6;
+    margin-bottom: 4px;
+}
+
+.product-item__bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.product-item__price {
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #FBFAF6;
+}
+
+.product-item__bottom button {
+    width: 19px;
+    height: 18px;
+    border: none;
+    background-color: transparent;
 }
