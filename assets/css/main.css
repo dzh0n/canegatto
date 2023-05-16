@@ -733,3 +733,19 @@ input::-webkit-inner-spin-button {
     display: block;
     width: 100%;
 }
+
+.product-top__options {
+    margin-bottom: 35px;
+}
+
+.product-top__opttitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 139.02%;
+    margin-bottom: 15px;
+}
+
+.product-top_opts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
