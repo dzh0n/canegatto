@@ -15,5 +15,10 @@ $(document).ready(function () {
         'translation': {A: {pattern: /[1,2,3,4,5,6,9]/}, 0: {pattern: /[0-9]/}}
     });
 
+    $('.product-info__title').on('click', function(){
+        $(this).toggleClass('open');
+        $(this).parent().find('.product-info__text').toggleClass('hidden');
+    });
+
 
 });
