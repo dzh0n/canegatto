@@ -880,6 +880,69 @@ input::-webkit-inner-spin-button {
     color: #333333;
 }
 
+.main-catalog {
+    min-height: 645px;
+    padding: 70px 0;
+}
+
+.main-catalog .product-item {
+    width: 100%;
+}
+
+.main-catalog .product-item__img {
+    text-align: center;
+}
+
+.main-catalog .product-item__img img {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-catalog__slider-button-prev {
+    width: 74px;
+    height: 74px;
+    background-image: url("../svg/review-prev.svg");
+    position: absolute;
+    left: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+}
+
+.main-catalog__slider-button-next {
+    width: 74px;
+    height: 74px;
+    background-image: url("../svg/review-next.svg");
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+}
+
+.main-catalog__more {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.main-catalog__more a {
+    text-decoration: none;
+    background: #9C0F32;
+    box-shadow: 7px 6px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    width: 205px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 45px;
+    /* identical to box height */
+    text-align: center;
+    color: #FBFAF6;
+    display: inline-block;
+}
+
 .cooperation {
 
 }

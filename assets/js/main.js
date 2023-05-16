@@ -49,5 +49,18 @@ $(document).ready(function () {
         },
     });
 
+    const mainCatalogSlider = new Swiper('.main-catalog__slider .swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 100,
+        loop: true,
+        navigation: {
+            nextEl: '.main-catalog__slider-button-next',
+            prevEl: '.main-catalog__slider-button-prev',
+        },
+        autoplay: {
+            delay: 4000,
+        },
+    });
+
 
 });
