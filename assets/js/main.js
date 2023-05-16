@@ -20,5 +20,21 @@ $(document).ready(function () {
         $(this).parent().find('.product-info__text').toggleClass('hidden');
     });
 
+    $('.product-top__dec').on('click', function(){
+        var input = $(this).parent().find('input');
+        var currentVal = parseInt(input.val());
+        if( (currentVal - 1) < 1 ) {
+            input.val(1);
+        }
+        else {
+            input.val(currentVal - 1);
+        }
+    });
+
+    $('.product-top__inc').on('click', function(){
+        var input = $(this).parent().find('input');
+        var currentVal = parseInt(input.val());
+        input.val(currentVal + 1);
+    });
 
 });
