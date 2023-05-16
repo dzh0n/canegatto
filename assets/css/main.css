@@ -946,3 +946,66 @@ input::-webkit-inner-spin-button {
 .cooperation {
 
 }
+
+.charity {
+    margin: 140px 0px;
+}
+
+.charity-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.charity-dir {
+    width: 435px;
+    flex-shrink: 0;
+    margin-right: 25px;
+}
+
+.charity-dir img {
+    display: block;
+    width: 100%;
+}
+
+.charity-data__title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 103%;
+    /* or 39px */
+    color: #FBFAF6;
+    margin-bottom: 20px;
+}
+
+.charity-data__subtitle {
+    font-weight: 400;
+    font-size: 11.0463px;
+    line-height: 200.5%;
+    /* or 22px */
+    color: #FBFAF6;
+    margin-bottom: 35px;
+}
+
+.charity-data__images {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.charity-data__images img {
+    height: 185px;
+    display: block;
+    border-radius: 15px;
+}
+
+.charity-data__address {
+    display: flex;
+    align-items: center;
+    font-size: 13.3099px;
+    line-height: 119.5%;
+    /* identical to box height, or 16px */
+    color: #FBFAF6;
+}
+
+.charity-data__address img {
+    margin-right: 8px;
+}
