@@ -37,4 +37,17 @@ $(document).ready(function () {
         input.val(currentVal + 1);
     });
 
+    const reviewsSlider = new Swiper('.reviews-slider .swiper-container', {
+        slidesPerView: 1,
+        loop: true,
+        navigation: {
+            nextEl: '.reviews-slider-button-next',
+            prevEl: '.reviews-slider-button-prev',
+        },
+        autoplay: {
+            delay: 5000,
+        },
+    });
+
+
 });
