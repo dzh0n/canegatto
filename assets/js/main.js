@@ -74,5 +74,18 @@ $(document).ready(function () {
         },
     });
 
+    const mainSlider = new Swiper('.main-slider .swiper-container', {
+        slidesPerView: 1,
+        loop: true,
+        navigation: {
+            nextEl: '.main-slide__next',
+            //prevEl: '.reviews-slider-button-prev',
+        },
+       /* autoplay: {
+            delay: 5000,
+        },*/
+    });
+
+
 
 });
