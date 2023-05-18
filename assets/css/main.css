@@ -957,6 +957,7 @@ input::-webkit-inner-spin-button {
     position: absolute;
     z-index: 1;
     height: 575px;
+    height: 535px;
     left: 0;
     bottom: 0;
 }
