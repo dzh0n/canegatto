@@ -12,7 +12,7 @@
 
 html, body {
     width: 100%;
-   /* height: 100%;*/
+    /* height: 100%;*/
 }
 
 body {
@@ -717,11 +717,11 @@ input::-webkit-inner-spin-button {
 }
 
 .product-top__dec {
-    border-right:2px solid #FBFAF6;
+    border-right: 2px solid #FBFAF6;
 }
 
 .product-top__inc {
-    border-left:2px solid #FBFAF6;
+    border-left: 2px solid #FBFAF6;
 }
 
 .product-top__img {
@@ -1373,7 +1373,7 @@ input::-webkit-inner-spin-button {
     margin-bottom: 55px;
 }
 
-.partners-text  p {
+.partners-text p {
     font-size: 12px;
     line-height: 177%;
     /* or 21px */
@@ -1471,6 +1471,7 @@ input::-webkit-inner-spin-button {
     border-radius: 15px;
     position: relative;
 }
+
 /*
 .categories-item:before {
     content: "";
@@ -1669,4 +1670,202 @@ input::-webkit-inner-spin-button {
     width: 205px;
     height: 45px;
     cursor: pointer;
+}
+
+.action {
+
+}
+
+.action-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 765px;
+    color: #FBFAF6;
+    margin: 0 auto 65px;
+}
+
+.action-bottom__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.action-bottom__text {
+
+}
+
+.action-bottom__text p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 146.02%;
+    margin-bottom: 15px;
+}
+
+.action-main__btn {
+    display: block;
+    width: 271px;
+    height: 45px;
+    border: 3px solid #FBFAF6;
+    filter: drop-shadow(7px 6px 11px rgba(0, 0, 0, 0.25));
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 39px;
+    /* identical to box height */
+    text-align: center;
+    color: #FBFAF6;
+    margin-top: 40px;
+}
+
+.action-main__btn:hover {
+    background-color: #9A0F36;
+    border-color: #9A0F36;
+}
+
+.action-info {
+    height: 395px;
+    background-image: url("../img/action-bg-line.png");
+    background-size: contain;
+}
+
+.action-info__title {
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 139.02%;
+    /* or 22px */
+    text-align: center;
+    color: #333333;
+    max-width: 700px;
+    margin: 0 auto 20px;
+}
+
+.action-info__subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 139.02%;
+    /* or 22px */
+    text-align: center;
+    color: #333333;
+}
+
+.action-info__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+
+.action-info__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+}
+
+.action-info__item img {
+    width: 90px;
+}
+
+.action-info__item span {
+    display: block;
+    font-size: 14px;
+    line-height: 123%;
+    /* or 17px */
+
+    text-align: center;
+
+    color: #333333;
+}
+
+.why-me {
+    margin-bottom: 100px;
+}
+
+.why-me__title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 139.02%;
+    /* or 31px */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FBFAF6;
+    margin-bottom: 55px;
+}
+
+.why-me__top {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 139.02%;
+    /* or 22px */
+    text-align: center;
+    color: #FBFAF6;
+}
+
+.why-me__top.left {
+    display: flex;
+    align-items: flex-end;
+}
+
+.why-me__top.left img {
+    width: 150px;
+}
+
+.why-me__top.left span {
+    margin-bottom: -25px;
+}
+
+.why-me__top.center {
+
+}
+
+.why-me__top.center img {
+    height: 72px;
+}
+
+.why-me__top.right {
+    display: flex;
+    align-items: flex-end;
+}
+
+.why-me__top.right img {
+    width: 150px;
+}
+
+.why-me__top.right span {
+    margin-bottom: -25px;
+}
+
+.why-me__bottom {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 139.02%;
+    /* or 22px */
+    text-align: center;
+    color: #FBFAF6;
+    gap: 65px;
+}
+
+.why-me__bottom.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-me__bottom.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-me__bottom.left img, .why-me__bottom.right img {
+    height: 120px;
+}
+
+.why-me__bottom.left span, .why-me__bottom.right span {
+    margin-top: -45px;
 }
