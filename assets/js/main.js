@@ -49,6 +49,18 @@ $(document).ready(function () {
         },
     });
 
+    const ingSlider = new Swiper('.ing-slider .swiper-container', {
+        slidesPerView: 1,
+        loop: true,
+        navigation: {
+            nextEl: '.reviews-slider-button-next',
+            prevEl: '.reviews-slider-button-prev',
+        },
+        autoplay: {
+            delay: 5000,
+        },
+    });
+
     const mainCatalogSlider = new Swiper('.main-catalog__slider .swiper-container', {
         slidesPerView: 3,
         spaceBetween: 100,
