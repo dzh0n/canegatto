@@ -960,6 +960,7 @@ input::-webkit-inner-spin-button {
     width: 435px;
     flex-shrink: 0;
     margin-right: 25px;
+    position: relative;
 }
 
 .charity-dir img {
@@ -1008,4 +1009,34 @@ input::-webkit-inner-spin-button {
 
 .charity-data__address img {
     margin-right: 8px;
+}
+
+.charity-dir__info {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: -25px;
+    left: 75px;
+}
+
+.charity-dir__info h5 {
+    max-width: 285px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.charity-dir__info h6 {
+    max-width: 285px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+}
+
+.charity-slogan {
+    position: absolute;
+    top: 115px;
+    right: 20px;
+    width: 152px;
 }
