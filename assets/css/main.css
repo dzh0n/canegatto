@@ -1521,3 +1521,152 @@ input::-webkit-inner-spin-button {
     margin: 20px auto 0;
     color: #9A0F36;
 }
+
+.question {
+
+}
+
+.question-wrapper {
+    height: 675px;
+    display: flex;
+}
+
+.question-form {
+    width: 540px;
+    flex-shrink: 0;
+}
+
+.question-title {
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.question-subtitle {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.question-img {
+    position: relative;
+    width: 100%;
+}
+
+.question-img img {
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-55%);
+}
+
+.question-info {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.question-info p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 139.02%;
+    /* or 17px */
+    text-align: center;
+    color: #FBFAF6;
+    margin-bottom: 15px;
+}
+
+.question-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.question-form form input[type='text'] {
+    border: 0.915909px solid #FBFAF6;
+    border-radius: 38.4682px;
+    padding: 12px 25px;
+    background: transparent;
+    outline: none;
+    font-family: 'Neometric';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 139.02%;
+    /* or 17px */
+    color: #FBFAF6;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.question-form form input[type='text']::placeholder {
+    color: #FBFAF6;
+}
+
+.question-form form .checkbox-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.question-form form .checkbox-row a {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 139.02%;
+    /* or 14px */
+    color: #FBFAF6;
+}
+
+.question-form form .checkbox-row a:hover {
+    color: #9C0F32;
+}
+
+.question-form form .checkbox-row input[type='checkbox'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #FBFAF6;
+    border: 1px solid #FBFAF6;
+    border-radius: 3px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 8px;
+}
+
+.question-form form .checkbox-row input[type='checkbox']:checked:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 10px;
+    background-image: url(../svg/check.svg);
+}
+
+.question-form form button {
+    border: none;
+    outline: none;
+    background: #9C0F32;
+    box-shadow: 6.41136px 5.49545px 10.075px rgba(0, 0, 0, 0.25);
+    border-radius: 91.5909px;
+    font-family: 'Neometric';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFAF6;
+    display: block;
+    width: 205px;
+    height: 45px;
+    cursor: pointer;
+}
