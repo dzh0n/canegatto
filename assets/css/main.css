@@ -944,7 +944,148 @@ input::-webkit-inner-spin-button {
 }
 
 .cooperation {
+    height: 600px;
+}
 
+.cooperation .container {
+    height: 100%;
+}
+
+.cooperation-img {
+    position: absolute;
+    z-index: 1;
+    height: 575px;
+    left: 0;
+    bottom: 0;
+}
+
+.cooperation-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cooperation-text {
+    width: 400px;
+}
+
+.cooperation-text h5 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 103%;
+    color: #FBFAF6;
+    margin-bottom: 20px;
+}
+
+.cooperation-text p {
+    font-size: 14px;
+    line-height: 139.02%;
+}
+
+.cooperation-form {
+    background: #FBFAF6;
+    border-radius: 15px;
+    width: 485px;
+    height: 395px;
+    flex-shrink: 0;
+    margin-top: 45px;
+}
+
+.cooperation-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    align-items: center;
+}
+
+.cooperation-form form p {
+    font-size: 14px;
+    line-height: 113.5%;
+    /* or 16px */
+    text-align: center;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+.cooperation-form form input[type='text'] {
+    border: 0.915909px solid #333333;
+    border-radius: 38.4682px;
+    padding: 10px 25px;
+    background: transparent;
+    outline: none;
+    font-family: 'Neometric';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 139.02%;
+    /* or 17px */
+    color: #333333;
+    margin-bottom: 17px;
+    width: 100%;
+}
+
+.cooperation-form form input[type='text']::placeholder {
+    color: #333333;
+}
+
+.cooperation-form form .checkbox-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.cooperation-form form .checkbox-row a {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 139.02%;
+    /* or 14px */
+    color: #333333;
+}
+
+.cooperation-form form .checkbox-row a:hover {
+    color: #9C0F32;
+}
+
+.cooperation-form form .checkbox-row input[type='checkbox'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #FBFAF6;
+    border: 1px solid #9A0F36;
+    border-radius: 3px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 8px;
+}
+
+.cooperation-form form .checkbox-row input[type='checkbox']:checked:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 10px;
+    background-image: url(../svg/check.svg);
+}
+
+.cooperation-form form button {
+    border: none;
+    outline: none;
+    background: #9C0F32;
+    box-shadow: 6.41136px 5.49545px 10.075px rgba(0, 0, 0, 0.25);
+    border-radius: 91.5909px;
+    font-family: 'Neometric';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FBFAF6;
+    display: block;
+    width: 175px;
+    height: 40px;
+    cursor: pointer;
 }
 
 .charity {
