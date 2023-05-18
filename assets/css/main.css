@@ -1040,3 +1040,14 @@ input::-webkit-inner-spin-button {
     right: 20px;
     width: 152px;
 }
+
+.charity-vk, .charity-tg {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 45px;
+}
+
+.charity-tg {
+    top: calc(50% + 65px);
+}
