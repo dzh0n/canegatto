@@ -35,9 +35,6 @@ a {
     flex-direction: column;
 }
 
-.swiper-wrapper {
-    height: auto;
-}
 
 .main {
     flex-grow: 1;
@@ -2307,4 +2304,8 @@ input::-webkit-inner-spin-button {
 .main-slide .container {
     z-index: 90;
     position: relative;
+}
+
+.main-catalog__slider .swiper-wrapper {
+    height: auto;
 }
