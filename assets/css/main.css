@@ -35,6 +35,10 @@ a {
     flex-direction: column;
 }
 
+.swiper-wrapper {
+    height: auto;
+}
+
 .main {
     flex-grow: 1;
 }
