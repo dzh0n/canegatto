@@ -2306,6 +2306,6 @@ input::-webkit-inner-spin-button {
     position: relative;
 }
 
-.main-catalog__slider .swiper-wrapper {
+.main-catalog__slider .swiper-wrapper, .reviews-slider .swiper-wrapper {
     height: auto;
 }
