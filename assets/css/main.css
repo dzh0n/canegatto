@@ -280,6 +280,7 @@ a {
     width: 250px;
     border-right: #FBFAF6 2px solid;
     flex-shrink: 0;
+    margin-bottom: -40px;
 }
 
 .catalog-filter__title {
