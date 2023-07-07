@@ -130,8 +130,8 @@ a {
 }
 
 .footer-data__info {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 14px;
+    line-height: 16px;
     margin-bottom: 10px;
 }
 
@@ -158,8 +158,8 @@ a {
 }
 
 .footer-data__address {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .footer-data__right {
@@ -191,10 +191,10 @@ a {
 }
 
 .footer-btn.red {
-    margin-top: 30px;
+    margin-top: 15px;
     display: flex;
-    background: #9C0F32;
-    box-shadow: 7px 6px 11px rgba(0, 0, 0, 0.25);
+    background: transparent;
+    /*box-shadow: 7px 6px 11px rgba(0, 0, 0, 0.25);*/
     border-radius: 100px;
     width: 205px;
     height: 45px;
@@ -203,6 +203,13 @@ a {
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
+
+
+    border-radius: 100px;
+    border: 2px solid #FBFAF6;
+    background: rgba(156, 15, 50, 0.00);
+    box-shadow: 7px 6px 11px 0px rgba(0, 0, 0, 0.25);
+
 }
 
 .where-buy {
@@ -758,11 +765,12 @@ input::-webkit-inner-spin-button {
 
 .reviews-title {
     font-weight: 600;
-    font-size: 32px;
+    font-size: 46px;
     line-height: 100%;
     /* or 42px */
     text-align: center;
     margin-bottom: 40px;
+    text-transform: uppercase;
 }
 
 .reviews-slider {
@@ -959,7 +967,7 @@ input::-webkit-inner-spin-button {
     position: absolute;
     z-index: 1;
     height: 575px;
-    height: 535px;
+    height: 490px;
     left: 0;
     bottom: 0;
 }
@@ -970,7 +978,10 @@ input::-webkit-inner-spin-button {
 }
 
 .cooperation-text {
-    width: 400px;
+    width: 100%;
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto 50px;
 }
 
 .cooperation-text h5 {
@@ -979,6 +990,7 @@ input::-webkit-inner-spin-button {
     line-height: 103%;
     color: #FBFAF6;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .cooperation-text p {
@@ -1094,7 +1106,9 @@ input::-webkit-inner-spin-button {
 }
 
 .charity {
-    margin: 140px 0px;
+    margin: 90px 0px 140px;
+    border-top: #FBFAF6 4px solid;
+    padding-top: 90px;
 }
 
 .charity-wrapper {
@@ -1116,16 +1130,17 @@ input::-webkit-inner-spin-button {
 
 .charity-data__title {
     font-weight: 600;
-    font-size: 38px;
+    font-size: 46px;
     line-height: 103%;
     /* or 39px */
     color: #FBFAF6;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .charity-data__subtitle {
     font-weight: 400;
-    font-size: 11.0463px;
+    font-size: 14px;
     line-height: 200.5%;
     /* or 22px */
     color: #FBFAF6;
@@ -1147,7 +1162,7 @@ input::-webkit-inner-spin-button {
 .charity-data__address {
     display: flex;
     align-items: center;
-    font-size: 13.3099px;
+    font-size: 14px;
     line-height: 119.5%;
     /* identical to box height, or 16px */
     color: #FBFAF6;
@@ -1199,17 +1214,20 @@ input::-webkit-inner-spin-button {
 }
 
 .features {
-    height: 605px;
+    height: 705px;
     margin-top: 70px;
+    padding-top: 70px;
+    background: linear-gradient(180deg, rgba(199, 39, 79, 0.83) 0%, rgba(156, 15, 50, 0.00) 100%);
 }
 
 .features-title {
     font-weight: 600;
-    font-size: 38px;
+    font-size: 46px;
     line-height: 103%;
     color: #FBFAF6;
     margin-bottom: 60px;
     padding-left: 95px;
+    text-transform: uppercase;
 }
 
 .features-wrapper {
@@ -1221,6 +1239,20 @@ input::-webkit-inner-spin-button {
 .features-middle {
     width: 275px;
     flex-shrink: 0;
+    position: relative;
+}
+.features-middle:before {
+    display: block;
+    position: absolute;
+    content: '';
+    border-radius: 703px;
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #FBFAF6 0%, rgba(251, 250, 246, 0.00) 100%);
+    filter: blur(100px);
+    width: 703px;
+    height: 703px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .features-middle img {
@@ -1292,11 +1324,12 @@ input::-webkit-inner-spin-button {
     content: '';
     position: absolute;
     width: 100%;
-    height: 245px;
+    height: 440px;
     background-color: var(--main-color);
     display: block;
     bottom: 0;
     z-index: 1;
+    top: 225px;
 }
 
 .partners-wrapper {
@@ -1311,11 +1344,11 @@ input::-webkit-inner-spin-button {
 }
 
 .partners-doc > img {
-    margin-left: 45px;
+    margin-left: 0px;
 }
 
 .partners-doc__info {
-    width: 145px;
+    width: 180px;
     position: absolute;
     top: 65px;
     left: 0;
@@ -1323,22 +1356,22 @@ input::-webkit-inner-spin-button {
 
 .partners-doc__info h5 {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 22px;
     margin-bottom: 10px;
 }
 
 .partners-doc__info p {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 119.5%;
 }
 
 .partners-doc__video {
     position: absolute;
-    left: 0;
-    bottom: 65px;
+    left: 40px;
+    bottom: -125px;
     z-index: 3;
-    width: 150px;
+    width: 205px;
     text-align: center;
 }
 
@@ -1349,7 +1382,7 @@ input::-webkit-inner-spin-button {
 .partners-doc__video p {
     margin-top: 10px;
     font-weight: 600;
-    font-size: 8px;
+    font-size: 12px;
     line-height: 137.5%;
     /* or 11px */
     text-align: center;
@@ -1357,44 +1390,45 @@ input::-webkit-inner-spin-button {
 }
 
 .partners-text {
-    padding-top: 140px;
+    padding-top: 70px;
     position: relative;
     width: 100%;
 }
 
 .partners-text > img {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 20px;
+    bottom: -215px;
     transform: translate(60px, 60px);
 }
 
 .partners-text h4 {
     font-weight: 600;
-    font-size: 34px;
+    font-size: 46px;
     line-height: 103%;
     /* or 35px */
     color: #FBFAF6;
-    margin-bottom: 55px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
 }
 
 .partners-text p {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 177%;
     /* or 21px */
     color: #333333;
     margin-bottom: 25px;
-    max-width: 415px;
+    max-width: 100%;
 }
 
 .partners-text__link {
     text-align: right;
-    max-width: 415px;
+    max-width: 215px;
 }
 
 .partners-text__link a {
     font-weight: 600;
-    font-size: 10px;
+    font-size: 14px;
     line-height: 200.5%;
     /* identical to box height, or 20px */
     text-align: right;
@@ -1530,7 +1564,7 @@ input::-webkit-inner-spin-button {
 }
 
 .question {
-
+padding-top: 350px;
 }
 
 .question-wrapper {
